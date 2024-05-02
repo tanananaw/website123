@@ -1,0 +1,188 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+.topnav{ 
+background-image: url("https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif");
+background-repeat: no-repeat;
+background-size: 100%;
+display: flex;
+justify-content: center;
+overflow: hidden;
+padding-top: 15px;
+padding-bottom: 15px;
+overflow: hidden;
+background-color: #333;
+position: fixed;
+top: 0;
+width: 100%;
+}
+.topnav a{
+float: left;
+color: #1ed8c8;
+text-align: center;
+padding: 14px 30px;
+text-decoration: none;
+font-size: 17px;
+}
+.topnav a:hover{
+ background-color: #937B6E;
+ color: #ffffff;
+}
+.header{
+ background-image: url("https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: bottom;
+ height: 550px;
+ display: grid;
+ padding: 100px 50px;
+}
+.overlay{
+ color: #b80d6b;
+ font-size: 30px;
+ text-shadow: 5px 5px 4px #0698ec;
+ background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(3, 7, 10, 0.9));
+ text-align: center;
+ padding: 80px;
+}
+.about{
+  color:#faebd7;
+  font-size: 17px;
+  text-shadow: 3px 4px 5px #0698ec;
+  padding: 120px 50px;
+  display: flex;
+  background-image: url("https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #b80d6b;
+ }
+ .content{
+  place-self: center;
+  text-align: center;
+  line-height: 22px;
+  padding: 50px 50px 50px 0px;
+  width: 50%;
+  letter-spacing: 0.8;
+ }
+ .about-image{
+  place-self: center;
+  width: 10px;
+ }
+ .about-image img{
+  width: 200px;
+  height: 200px;
+  object-fit:cover ;
+  border: 2px solid #0b4d58;
+ } 
+
+.gallery{
+  color: #b80d6b;
+  font-size: 20px;
+  text-shadow: 5px 3px 10px #0698ec;
+  padding: 40px 40px;
+  height: auto;
+  background-image: url("https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: bottom;
+}
+div.gallery img{
+  width: 100%;
+  height:300px;
+  object-fit: cover;
+  object-position: top;
+  border: 2px solid #fff;
+}
+.responsive{
+ padding: 5px 5px;
+ display: inline-grid;
+ width: 33%;
+ box-sizing: border-box;;
+}
+.hobbies-and-interest {
+ 
+ color: #25a872;
+ font-size: 3px;
+ text-shadow: 3px 4px 5px #1078a8;
+ padding: 200px 100px;
+ display: flex;
+ background-color: #070910;
+ background-image: url("https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: bottom;
+}
+
+.hobbies-and-interest div {
+ text-indent: 50px;
+ width: 50%;
+ padding: 20px;
+ text-align: center;
+ color: #ffffff;
+}
+
+.hobbies-and-interest img {
+ width: 400px;
+ object-fit: cover;
+ border: 3px solid rgb(255, 255, 255);
+}
+.favorites{
+   color: #b80d6b;
+   font-size: 20px;
+   text-shadow: 5px 3px 2px #0698ec ;
+   padding: 40px 40px;
+   height: auto;
+   background-color: #1636ac;
+   background-image: url("https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom;
+ }
+ .responsive{
+  display: inline-grid;
+  place-self: center;
+  padding: 10px 10px;
+  width: 33%;
+ }
+ div.content{
+   width: 100%;
+  height:300px;
+  object-fit: cover;
+  object-position: top;
+}
+.contacts{
+  color: #b80d6b ;
+  font-size: 20px;
+  text-shadow: 5px 4px 10px #0698ec;
+  background-image: url("https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif");
+  text-align: center;
+  justify-content: center;
+  background-color: linear-gradient(to top, rgba(75, 214, 219), 0.945, rgba(66, 15, 15, 0.993));
+}
+.bottnav{ 
+  background-image: url("https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  }
+  .bottnav a{
+  float: left;
+  color: #1ed8c8;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+  .bottnav a:hover{
+   background-color: #937B6E;
+   color: #ffffff;
+  }
+ 
